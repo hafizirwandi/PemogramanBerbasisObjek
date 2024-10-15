@@ -5,7 +5,7 @@ class Mobilx {
     public Mobilx(String merek2, String nama2, String tahun2) {
         nama = nama2;
         merek = merek2;
-        tahun = tahun2;
+        tahun = tahun2;  
     }
 
     void display() {
