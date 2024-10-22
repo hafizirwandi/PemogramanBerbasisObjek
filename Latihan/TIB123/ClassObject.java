@@ -1,19 +1,18 @@
-class Minuman{
-    //atribut nama, harga, stok
+class Minuman {
+    // atribut nama, harga, stok
     String nama;
     double harga;
     int stok;
 
-
-    void display(){
-        System.out.println("Nama "+ nama);
-        System.out.println("Harga "+ harga);
-        System.out.println("stok "+ stok);
+    void display() {
+        System.out.println("Nama " + nama);
+        System.out.println("Harga " + harga);
+        System.out.println("stok " + stok);
     }
 }
 
 public class ClassObject {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Minuman minuman = new Minuman();
 
         //

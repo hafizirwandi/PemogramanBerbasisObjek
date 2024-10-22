@@ -12,11 +12,11 @@ class Product {
      * 
      */
 
-    Product(String a, double b, int c) {
-        merek = a;
-        harga = b;
-        stok = c;
-    }
+    // Product(String a, double b, int c) {
+    // merek = a;
+    // harga = b;
+    // stok = c;
+    // }
 
     void display() {
         System.out.println("Merek : " + merek);
@@ -51,20 +51,23 @@ class Product {
 
 public class GetterSetterProduct {
     public static void main(String[] args) {
-        Product obj1 = new Product("Rinso", 3000, 5);
+        // Product obj1 = new Product("Rinso", 3000, 5);
 
-        System.out.println("Nama merek : " + obj1.getMerek());
-        // Product obj1 = new Product();
+        // System.out.println("Nama merek : " + obj1.getMerek());
+        // // Product obj1 = new Product();
 
-        // // obj1.merek = "Rinso";
-        // obj1.setMerek("Rinso");
-        // // obj1.harga = 3000;
-        // obj1.setHarga(3000);
-        // // obj1.stok = 5;
-        // obj1.setStok(5);
+        // // // obj1.merek = "Rinso";
+        // // obj1.setMerek("Rinso");
+        // // // obj1.harga = 3000;
+        // // obj1.setHarga(3000);
+        // // // obj1.stok = 5;
+        // // obj1.setStok(5);
 
-        // obj1.setAtribut("Rinso", 3000, 5);
-        obj1.display();
+        // // obj1.setAtribut("Rinso", 3000, 5);
+        // obj1.display();
+
+        Product obj = new Product();
+        obj.merek = " nama merek";
 
     }
 }
